@@ -1,11 +1,18 @@
 {
   "expo": {
     "name": "goFinances",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "backgroundColor": "#5636D3"
+    },
     "slug": "goFinances",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "scheme": "gofinances",
+    "version": "1.0.1",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.agenciasantana.financas"
+    }
   },
   "name": "goFinances"
 }
